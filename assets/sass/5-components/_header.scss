@@ -1,0 +1,14 @@
+.c-header { 
+  background-color: $color-blue;
+  overflow: hidden;
+
+  .o-social {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.c-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}

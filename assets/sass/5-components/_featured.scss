@@ -1,0 +1,30 @@
+.c-featured {
+  text-align: center;
+  margin-bottom: $base-spacing-unit * 4;
+}
+
+.c-featured__image {
+  margin-bottom: $base-spacing-unit;
+  width: 600px;
+  max-width: 100%;
+}
+
+.c-featured__title {
+  margin-bottom: $base-spacing-unit / 2;
+}
+
+.c-featured__app-links {
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  max-width: 100%;
+  margin: 0 auto;
+
+  img {
+    max-width: 150px;
+
+    @include breakpoint($break-tablet) {
+      max-width: 200px;
+    }
+  }
+}

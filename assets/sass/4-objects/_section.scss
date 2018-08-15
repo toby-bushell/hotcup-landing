@@ -1,0 +1,27 @@
+.o-section-background{
+  position: relative;
+  padding: $base-spacing-unit * 3 0 $base-spacing-unit 0;
+  color: $color-white;
+  text-align: center;
+  overflow: hidden;
+
+  .c-content {
+    margin-left: auto;
+    margin-right: auto;
+  } 
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100% ;
+    background-color: rgba(57, 84, 109, .75);
+  }
+
+  * {
+    z-index: 1;
+    position: relative;
+  }
+}

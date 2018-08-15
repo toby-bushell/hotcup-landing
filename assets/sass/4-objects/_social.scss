@@ -1,0 +1,11 @@
+.o-social {
+  a {
+    color: $color-white;
+    margin-right: $base-spacing-unit / 2;
+
+    &:hover {
+      color: $color-yellow;
+      text-decoration: none;
+    }
+  }
+}

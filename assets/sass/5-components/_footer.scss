@@ -1,0 +1,15 @@
+.c-footer {
+  padding: $base-spacing-unit * 2;
+  background-color: $color-off-black;
+  color: $color-white;
+  overflow: hidden;
+
+  p {
+    margin-bottom: 0;
+    float: left;
+  }
+
+  .o-social {
+    float: right;
+  }
+}

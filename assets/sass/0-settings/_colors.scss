@@ -1,0 +1,21 @@
+/*===============================
+=            COLOURS            =
+===============================*/
+
+
+// Set up a colour palette which allows us to theme the entire project from one
+// location.
+
+$color-off-black:                             #222222;
+$color-grey:                                  #707070;
+$color-yellow:                                #C3C354;
+$color-blue:                                  #39546d;
+
+$color-white:                                 #FFFFFF;
+
+// Reassign literal variables to meaningful ones.
+
+$color-page-background:                       #f9f9f9;
+
+$color-page-text:                             $color-off-black;
+$color-links:                                 $color-off-black;

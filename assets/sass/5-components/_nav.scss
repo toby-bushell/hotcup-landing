@@ -1,0 +1,36 @@
+.c-nav { 
+  color: $color-white;
+  margin: 0;
+  margin-left: auto;
+  margin-right: $base-spacing-unit;
+  overflow: hidden;
+  
+  @include breakpoint($break-tablet) {
+    margin-right: $base-spacing-unit * 2;
+  }
+  
+  li {
+    height: 100%;
+    list-style: none;
+    float: left;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: $color-white;
+    font-size: 18px;
+    transition: background-color .2s ease;
+    padding: $base-spacing-unit / 2;
+
+    @include breakpoint($break-tablet) {
+      padding: $base-spacing-unit / 2 $base-spacing-unit;
+    }
+    
+    &:hover {
+      text-decoration: none;
+      background-color: $color-off-black;
+    }
+  }
+}

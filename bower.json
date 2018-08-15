@@ -1,0 +1,25 @@
+{
+  "name": "one-page-starter",
+  "version": "1.0.0",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "breakpoint-sass": "~2.7.0",
+    "susy": "~2.2.3"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "~2.5.0"
+  },
+  "resolutions": {
+    "breakpoint-sass": "~2.7.0"
+  }
+}

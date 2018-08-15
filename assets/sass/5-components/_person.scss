@@ -1,0 +1,68 @@
+.c-person {
+  padding: $base-spacing-unit 0;
+  margin: $base-spacing-unit $base-spacing-unit * 2 0;
+  height: 250px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+
+  &.is-flipped {
+    transform: rotateY(180deg);
+
+  }
+  p {
+    margin-bottom: $base-spacing-unit / 2;
+    color: $color-off-black;
+  }
+}
+
+.c-person__image {
+  width: 100px;
+}
+
+
+.c-person__card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.c-person__card--front {
+  background: $color-white;
+  transition: background-color .2s ease;
+
+  &:hover {
+    background-color: rgba(255,255,255, .8);
+  }
+  p {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+  }
+}
+
+.c-person__card--back {
+  background: $color-off-black;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: $base-spacing-unit;
+
+  p {
+    color: $color-white;
+
+  }
+  
+  span {
+    display: block;
+    margin-right: $base-spacing-unit / 2;
+    color: $color-yellow;
+  }
+}
